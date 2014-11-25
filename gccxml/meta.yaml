@@ -1,0 +1,16 @@
+package:
+  name: gccxml
+  version: 0_9_20140718
+
+source:
+  git_url: git://github.com/gccxml/gccxml.git
+  git_tag: ab651a2aa866351bdd089a4bf1d57f6a9bec2a66
+
+requirements:
+  build:
+    - cmake
+    - gcc >=4.9.1
+
+about:
+  home: http://proj-clhep.web.cern.ch/proj-clhep/
+  license: GPLv2

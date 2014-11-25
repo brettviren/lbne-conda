@@ -1,0 +1,17 @@
+package:
+  name: xrootd
+  version: 3.3.6
+
+source:
+  fn: xrootd-3.3.6.tar.gz
+  url: http://xrootd.org/download/v3.3.6/xrootd-3.3.6.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - cmake
+    - openssl
+    - readline
+    - gcc >=4.9.1

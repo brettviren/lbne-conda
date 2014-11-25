@@ -1,0 +1,18 @@
+package:
+  name: clhep
+  version: 2.2.0.4
+
+source:
+  fn: clhep-2.2.0.4.tgz
+  url: https://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.2.0.4.tgz
+
+requirements:
+  build:
+    - cmake
+    - gcc >=4.9.1
+
+about:
+  home: http://proj-clhep.web.cern.ch/proj-clhep/
+  license: BSD
+
+

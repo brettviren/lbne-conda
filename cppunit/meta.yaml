@@ -1,0 +1,15 @@
+package:
+  name: cppunit
+  version: 1.13.2
+
+source:
+  fn: cppunit-1.13.2.tar.gz
+  url: http://dev-www.libreoffice.org/src/cppunit-1.13.2.tar.gz
+
+requirements:
+  build:
+    - gcc >=4.9.1
+
+about:
+  home: http://www.freedesktop.org/wiki/Software/cppunit/
+  license: LGPLv2
